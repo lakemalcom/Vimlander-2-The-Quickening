@@ -27,3 +27,13 @@ let g:ScreenImpl = 'Tmux'
 " FuzzyFinder:
 let g:fuf_coveragefile_exclude = '\v\~$|\.(o|exe|dll|bak|orig|swp|tmp|gitkeep|DS_Store)$|(app\/assets\/fonts|vendor\/cache|vendor\/gems)|(^|[/\\])\.(hg|git|bzr|bundle)($|[/\\])'
 let g:fuf_buffertag_ctagsPath = '/opt/github/homebrew/bin/ctags'
+
+" NerdTree:
+let g:NERDTreeHijackNetrw=0
+
+" EasyTags:
+let g:easytags_cmd = '/opt/github/homebrew/bin/ctags'
+let g:easytags_dynamic_files = 1
+
+set tags=./.tags;,~/.vimtags
+
