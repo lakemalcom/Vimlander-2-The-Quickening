@@ -1,7 +1,7 @@
 " General Settings:
 
 scriptencoding utf-8                    " UTF8 All day, every day
-set directory=/tmp/                     " Set temporary directory (don't litter local dir with swp/tmp files)
+set directory=~/.vimtmp/                     " Set temporary directory (don't litter local dir with swp/tmp files)
 
 " Set it to internal VIM Help
 set keywordprg=:help
@@ -21,7 +21,7 @@ set vb t_vb=                            " Disable visual bell
 set autoread                            " Set to auto read when a file is changed from the outside
 set nobackup                            " Do not create backup files when saving over existing files
 set nowritebackup                       " A little paranoid, but disable the writebackup function as well
-set noswapfile                          " No swap files when editing please
+" set noswapfile                          " No swap files when editing please
 
 set completeopt=menuone,preview
 
@@ -49,6 +49,7 @@ set shiftwidth=2
 set shiftround
 
 set number                              " Enable line numbers
+set relativenumber
 set numberwidth=3                       " Set line number column width
 
 " WindowAndBufferManagement:
